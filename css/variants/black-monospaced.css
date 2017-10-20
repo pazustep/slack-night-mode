@@ -481,7 +481,7 @@
   .attachment_group .inline_attachment.reply_broadcast + .attachment_rule { color: #949494; }
   .attachment_group .inline_attachment.reply_broadcast + .attachment_rule::after { border-bottom: 1px solid #363636; }
   .attachment_group .inline_attachment.message_unfurl .attachment_source .attachment_source_name a, .attachment_group .inline_attachment.message_unfurl .attachment_source .attachment_source_name span { color: #949494; }
-  .attachment_group .attachment_title { font-size: 12px; }
+  .attachment_group .attachment_group .inline_attachment .attachment_title { font-size: 12px; }
   .attachment_group .attachment_title a { color: #e6e6e6; }
   .attachment_group .attachment_footer_text + .attachment_ts::before { color: #949494; }
   .attachment_group .delete_attachment_link ts-icon::before { color: #949494; }
