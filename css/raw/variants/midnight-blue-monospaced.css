@@ -334,7 +334,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_form .msg_mentions_button:hover { color: #00b9f2; }
 
-#msg_input { background: #282828; border-color: #202020; color: #00b9f2; font-family: Monoid, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+#msg_input { background: #282828; border-color: #202020; color: #00b9f2; font-family: Monoid, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; font-size: 12px; line-height: 1.2; }
 
 #msg_input::-webkit-input-placeholder { color: #00b9f2 !important; -webkit-filter: none; filter: none; opacity: 0.5; }
 

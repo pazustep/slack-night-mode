@@ -74,6 +74,14 @@
     }
   }
 
+  @if global-variable-exists(base-font-size) {
+    font-size: $base-font-size;
+  }
+
+  @if global-variable-exists(base-line-height) {
+    line-height: $base-line-height;
+  }
+
   &:focus,
   &.focus {
     border-color: $color-shade-dark;
