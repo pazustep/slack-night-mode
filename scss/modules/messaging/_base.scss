@@ -9,6 +9,14 @@
 ts-message {
   color: $base-font-color;
 
+  @if global-variable-exists(base-font-size) {
+    font-size: $base-font-size;
+  }
+
+  @if global-variable-exists(base-line-height) {
+    line-height: $base-line-height;
+  }
+
   &.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply),
   &.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply),
   &:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply) {
