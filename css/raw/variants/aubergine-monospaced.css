@@ -336,7 +336,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_form .msg_mentions_button:hover { color: #f0d9ed; }
 
-#msg_input { background: #61485e; border-color: #4a3b49; color: #f0d9ed; }
+[lang="en-US"] #msg_input, [lang="de-DE"] #msg_input, [lang="es-ES"] #msg_input, [lang="fr-FR"] #msg_input { font-family: Monoid, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+
+#msg_input { background: #61485e; border-color: #4a3b49; color: #f0d9ed; font-size: 12px; }
 
 #msg_input::-webkit-input-placeholder { color: #f0d9ed !important; -webkit-filter: none; filter: none; opacity: 0.5; }
 
