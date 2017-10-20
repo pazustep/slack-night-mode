@@ -45,7 +45,7 @@
   }
 
   @if global-variable-exists(base-font-size) {
-    .attachment_group .inline_attachment .attachment_title {
+    .inline_attachment .attachment_title {
       font-size: $base-font-size;
     }
   }
