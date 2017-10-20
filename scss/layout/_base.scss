@@ -3,6 +3,15 @@ body {
   color: $base-font-color;
 }
 
+[lang="en-US"] body, [lang="de-DE"] body, [lang="es-ES"] body, [lang="fr-FR"] body {
+  @if global-variable-exists(base-font-family) {
+    font-family: $base-font-family;
+  }
+  @if global-variable-exists(base-font-size) {
+    font-size: $base-font-size;
+  }
+}
+
 a {
   color: $base-link-color;
 
