@@ -964,6 +964,8 @@ ts-mention { background: rgba(48, 48, 48, 0.1) !important; color: #00b9f2 !impor
 
 .attachment_group .inline_attachment.message_unfurl .attachment_source .attachment_source_name a, .attachment_group .inline_attachment.message_unfurl .attachment_source .attachment_source_name span { color: #1793d1; }
 
+.attachment_group .attachment_title { font-size: 12px; }
+
 .attachment_group .attachment_title a { color: #00b9f2; }
 
 .attachment_group .attachment_footer_text + .attachment_ts::before { color: #1793d1; }
@@ -973,6 +975,8 @@ ts-mention { background: rgba(48, 48, 48, 0.1) !important; color: #00b9f2 !impor
 .attachment_group .delete_attachment_link:hover ts-icon::before { color: #299bd4; }
 
 .attachment_still_pending ts-inline-saver { color: #1793d1; }
+
+.msg_inline_attachment_column { font-size: 12px; }
 
 .msg_inline_attachment_column.column_border { background-color: #282828; }
 

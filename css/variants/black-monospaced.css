@@ -481,11 +481,13 @@
   .attachment_group .inline_attachment.reply_broadcast + .attachment_rule { color: #949494; }
   .attachment_group .inline_attachment.reply_broadcast + .attachment_rule::after { border-bottom: 1px solid #363636; }
   .attachment_group .inline_attachment.message_unfurl .attachment_source .attachment_source_name a, .attachment_group .inline_attachment.message_unfurl .attachment_source .attachment_source_name span { color: #949494; }
+  .attachment_group .attachment_title { font-size: 12px; }
   .attachment_group .attachment_title a { color: #e6e6e6; }
   .attachment_group .attachment_footer_text + .attachment_ts::before { color: #949494; }
   .attachment_group .delete_attachment_link ts-icon::before { color: #949494; }
   .attachment_group .delete_attachment_link:hover ts-icon::before { color: #c7c7c7; }
   .attachment_still_pending ts-inline-saver { color: #949494; }
+  .msg_inline_attachment_column { font-size: 12px; }
   .msg_inline_attachment_column.column_border { background-color: #545454; }
   .msg_inline_img_holder .msg_inline_img { box-shadow: inset 0 0 0 1px #000; }
   .msg_inline_attachment_collapser, .msg_inline_attachment_expander, .msg_inline_img_collapser, .msg_inline_img_expander, .msg_inline_media_toggler, .msg_inline_room_preview_collapser, .msg_inline_room_preview_expander { color: #949494; }

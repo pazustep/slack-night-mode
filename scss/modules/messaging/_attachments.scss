@@ -44,6 +44,12 @@
     }
   }
 
+  @if global-variable-exists(base-font-size) {
+    .attachment_title {
+      font-size: $base-font-size;
+    }
+  }
+
   .attachment_title a {
     color: $base-font-color;
   }
@@ -65,6 +71,12 @@
 
 .attachment_still_pending ts-inline-saver {
   color: $color-highlight;
+}
+
+@if global-variable-exists(base-font-size) {
+  .msg_inline_attachment_column {
+    font-size: $base-font-size;
+  }
 }
 
 .msg_inline_attachment_column.column_border {
