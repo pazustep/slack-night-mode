@@ -176,6 +176,8 @@
   #msg_input::-moz-placeholder { color: #d3dae3 !important; filter: none; opacity: 0.5; }
   #msg_input::placeholder { color: #d3dae3 !important; filter: none; opacity: 0.5; }
   #msg_input[data-placeholder]:empty::before { color: #d3dae3 !important; }
+  #msg_input.ql-container { padding-left: 44px; }
+  #msg_input.ql-container .ql-placeholder { left: 44px; }
   #msg_input:focus, #msg_input.focus { border-color: #2a2f39; }
   #msg_input:focus + #primary_file_button:not(:hover):not(.active), #msg_input.focus + #primary_file_button:not(:hover):not(.active) { border-color: #2a2f39; }
   #msg_input + #primary_file_button:not(:hover):not(.active) { border-color: #454c5c; }
@@ -196,7 +198,7 @@
   .inline_message_input_container .ql-container.focus, .inline_message_input_container .ql-container:active, .inline_message_input_container .ql-container:hover { border-color: #858991; }
   #message_edit_container .message_input { background: #6b6f79; border-color: #2a2f39; color: #d3dae3; }
   #message_edit_container .message_input.focus { border-color: #2a2f39; box-shadow: 0 0 7px rgba(0, 0, 0, 0.15); }
-  .ql-editor { padding-left: 1.5rem; }
+  .ql-editor { padding-left: 9px; }
   .ql-editor::-webkit-scrollbar-thumb { background-color: rgba(107, 111, 121, 0.5); color: #404552; }
   .ql-editor::-webkit-scrollbar-thumb:hover { background-color: rgba(107, 111, 121, 0.8); }
   .ql-placeholder { color: #d3dae3; filter: none; }
@@ -572,7 +574,7 @@
   .end_div_msg_lim { background-color: #2a2f39; background-image: none; }
   #archives_end_div_msg_lim h1, #end_display_msg_lim h1 { color: #d3dae3; }
   #archives_end_div_msg_lim h2, #end_display_msg_lim h2 { color: rgba(211, 218, 227, 0.8); }
-  code { background-color: #1d2027; border: 1px solid #2a2f39; color: #d3dae3; }
+  code { background-color: #1d2027; border: 1px solid #2a2f39; color: #d3dae3; font-size: inherit; }
   .file_list_item.snippet .snippet_preview { background: #1d2027; }
   .snippet_preview, .snippet_body { background: #1d2027; }
   .snippet_preview pre, .snippet_body pre { color: #d3dae3 !important; }
