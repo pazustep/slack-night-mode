@@ -1,5 +1,10 @@
 .btn {
   font-size: 1rem;
+
+  &.btn-attachment {
+    background-color: $color-shade-dark;
+    font-size: inherit;
+  }
 }
 
 .btn_small {

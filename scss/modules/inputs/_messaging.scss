@@ -190,6 +190,7 @@
 }
 
 .ql-editor {
+  padding-left: 1.5rem;
   &::-webkit-scrollbar-thumb {
     background-color: rgba($color-shade-light, 0.5);
     color: $color-base;

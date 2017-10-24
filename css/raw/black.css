@@ -152,6 +152,8 @@ body.loading #team_menu, body.loading #quick_switcher_btn, body.loading #team_me
 
 .btn { font-size: 1rem; }
 
+.btn.btn-attachment { background-color: #363636; font-size: inherit; }
+
 .btn_small { font-size: 0.8rem; }
 
 input[type=text], input[type=password], input[type=datetime], input[type=datetime-local], input[type=date], input[type=month], input[type=time], input[type=week], input[type=number], input[type=email], input[type='url'], input[type=tel], input[type=color], input[type=search] { background-color: #545454; border-color: #000; color: #e6e6e6; }
@@ -391,6 +393,8 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 #message_edit_container .message_input { background: #545454; border-color: #363636; color: #e6e6e6; }
 
 #message_edit_container .message_input.focus { border-color: #363636; box-shadow: 0 0 7px rgba(0, 0, 0, 0.15); }
+
+.ql-editor { padding-left: 1.5rem; }
 
 .ql-editor::-webkit-scrollbar-thumb { background-color: rgba(84, 84, 84, 0.5); color: #222; }
 
