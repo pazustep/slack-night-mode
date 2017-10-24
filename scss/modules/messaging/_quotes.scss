@@ -6,6 +6,10 @@ pre {
   span.mention {
     padding: 2px 0 !important;
   }
+
+  &.special_formatting {
+    font-size: inherit;
+  }
 }
 
 #page pre,

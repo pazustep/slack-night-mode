@@ -1318,6 +1318,8 @@ pre { background: #101010; border: 1px solid #181818; color: #00b9f2; }
 
 pre span.mention { padding: 2px 0 !important; }
 
+pre.special_formatting { font-size: inherit; }
+
 #page pre, body > pre { background: #101010; color: #00b9f2 !important; }
 
 body > pre { background: #303030; }
