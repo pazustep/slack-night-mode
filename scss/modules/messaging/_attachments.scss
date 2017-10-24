@@ -73,10 +73,8 @@
   color: $color-highlight;
 }
 
-@if global-variable-exists(base-font-size) {
-  .msg_inline_attachment_column {
-    font-size: $base-font-size;
-  }
+.msg_inline_attachment_column {
+  font-size: 1rem;
 }
 
 .msg_inline_attachment_column.column_border {

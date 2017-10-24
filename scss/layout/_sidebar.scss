@@ -91,6 +91,15 @@
   &__close_container:hover {
     background: $color-shade-darkest;
   }
+
+  &__banner {
+    font-size: inherit;
+  }
+
+  &__section_heading_label {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
 }
 
 .channels_list_holder {

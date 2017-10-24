@@ -1,5 +1,6 @@
-@-moz-document regexp("https://[^./]*\\.slack\\.com/(?!pricing)(?!security).*") { body { background: #000; color: #00b9f2; }
-  [lang="en-US"] body, [lang="de-DE"] body, [lang="es-ES"] body, [lang="fr-FR"] body { font-family: Monoid, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; font-size: 12px; }
+@-moz-document regexp("https://[^./]*\\.slack\\.com/(?!pricing)(?!security).*") { html { font-size: 12px; }
+  body { font-size: inherit; background: #000; color: #00b9f2; }
+  [lang="en-US"] body, [lang="de-DE"] body, [lang="es-ES"] body, [lang="fr-FR"] body { font-family: Monoid, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
   a { color: #1793d1; }
   a:link, a:visited { color: #1793d1; }
   a:hover, a:active, a:focus { color: #299bd4; }
@@ -45,6 +46,8 @@
   .p-channel_sidebar .c-custom_scrollbar__thumb_vertical, .p-channel_sidebar .c-scrollbar__bar { background: #282828; }
   .p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name, .p-channel_sidebar__link--unread .p-channel_sidebar__name, .p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim) .p-channel_sidebar__name, .p-channel_sidebar__section_heading_label--clickable:hover, .p-channel_sidebar__quickswitcher:hover { color: #12c7ff !important; }
   .p-channel_sidebar__close_container:hover { background: #101010; }
+  .p-channel_sidebar__banner { font-size: inherit; }
+  .p-channel_sidebar__section_heading_label { font-size: 1.2rem; font-weight: 700; }
   .channels_list_holder h2 { color: #00b9f2 !important; }
   .channels_list_holder h2.hoverable:not(.jquery_hover):hover { color: #00b9f2; opacity: 0.8; }
   .channels_list_holder ul { color: #00b9f2 !important; }
@@ -73,6 +76,8 @@
   #loading_team_menu_bg, #loading_user_menu_bg { background: #000; border: none; }
   .infinite_spinner_bg, .infinite_spinner_blue { stroke: #00b9f2; }
   body.loading #team_menu, body.loading #quick_switcher_btn, body.loading #team_menu_overlay, body.loading #col_channels_overlay, body.loading #col_channels { background-color: #181818; }
+  .btn { font-size: 1rem; }
+  .btn_small { font-size: 0.8rem; }
   input[type=text], input[type=password], input[type=datetime], input[type=datetime-local], input[type=date], input[type=month], input[type=time], input[type=week], input[type=number], input[type=email], input[type='url'], input[type=tel], input[type=color], input[type=search] { background-color: #282828; border-color: #101010; color: #00b9f2; }
   input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, input[type=datetime-local]:focus, input[type=date]:focus, input[type=month]:focus, input[type=time]:focus, input[type=week]:focus, input[type=number]:focus, input[type=email]:focus, input[type='url']:focus, input[type=tel]:focus, input[type=color]:focus, input[type=search]:focus { border-color: rgba(24, 24, 24, 0.8); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(48, 48, 48, 0.6); }
   input[type=file]:focus { outline: #00b9f2 dotted thin; }
@@ -216,7 +221,7 @@
   .menu #menu_header .menu_close { color: #00b9f2; }
   .menu .section_header .header_label { background-color: #181818; color: #1793d1; }
   .menu .section_header > div.header_label_container { color: #1793d1; }
-  .menu ul li a { background: #181818; border-bottom: 0; color: #00b9f2; }
+  .menu ul li a { background: #181818; border-bottom: 0; color: #00b9f2; font-size: 1rem; }
   .menu ul li a.delete_link { color: #bf360c; }
   .menu ul li.highlighted a { background: #000; border-bottom-color: #101010; color: #00b9f2; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15); }
   .menu ul li.highlighted a .menu_item_details, .menu ul li.highlighted a .prefix, .menu ul li.highlighted a i, .menu ul li.highlighted a ts-icon { color: #00b9f2; }
@@ -488,7 +493,7 @@
   .attachment_group .delete_attachment_link ts-icon::before { color: #1793d1; }
   .attachment_group .delete_attachment_link:hover ts-icon::before { color: #299bd4; }
   .attachment_still_pending ts-inline-saver { color: #1793d1; }
-  .msg_inline_attachment_column { font-size: 12px; }
+  .msg_inline_attachment_column { font-size: 1rem; }
   .msg_inline_attachment_column.column_border { background-color: #282828; }
   .msg_inline_img_holder .msg_inline_img { box-shadow: inset 0 0 0 1px #101010; }
   .msg_inline_attachment_collapser, .msg_inline_attachment_expander, .msg_inline_img_collapser, .msg_inline_img_expander, .msg_inline_media_toggler, .msg_inline_room_preview_collapser, .msg_inline_room_preview_expander { color: #1793d1; }
@@ -639,7 +644,7 @@
   .dense_theme ts-message { color: #00b9f2; }
   .dense_theme ts-message.first .message_gutter .timestamp, .dense_theme ts-message.selected .message_gutter .timestamp { color: #1793d1; }
   .dense_theme ts-message .message_content .message_current_status { border-color: #181818; }
-  .light_theme ts-message { color: #00b9f2; font-family: Monoid, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+  .light_theme ts-message { color: #00b9f2; font-size: 1rem; }
   .light_theme ts-message .message_content .message_sender, .light_theme ts-message .message_content .meta .message_sender:hover { color: #00b9f2 !important; }
   .light_theme ts-message .comment::before { color: #1793d1; }
   .channel_overlay { border-color: #181818; color: #1793d1; }
@@ -686,12 +691,14 @@
   #unread_msgs_scroller_div.loading::before { color: #1793d1; }
   #unread_msgs_div .day_divider .day_divider_line { border-top-color: #181818; }
   .unread_group.marked_as_read .unread_group_header { background: #000; }
+  .unread_group_header .unread_group_keyboard_help, .unread_group_header .unread_group_marked_as_read_count, .unread_group_header .unread_group_message_count, .unread_group_header .unread_group_new, .unread_group_header .unread_group_undo { font-size: 0.75rem; }
   .unread_group_header { background: #181818; border-top-color: #282828; color: #00b9f2; }
   .unread_group_header .unread_group_collapse_toggle:hover ts-icon { color: #00b9f2; }
   .unread_group_header .unread_group_collapse_caret .ts_icon_caret_down { color: #1793d1; }
   .collapsed .unread_group_header .ts_icon_caret_right, .collapsing .unread_group_header .ts_icon_caret_right { color: #1793d1; }
   .mark_as_read_checkmark { color: #1793d1; }
   .bottom_mark_all_read { border-top-color: #181818; }
+  .unread_group_header_name { font-size: 1.2rem; line-height: 1.3; }
   .unread_group_header_name a { color: #00b9f2; }
   .unread_group_footer .unread_group_new .unread_group_new_text { color: #1793d1; }
   .unread_group_footer .unread_group_new:hover .unread_group_new_text { color: #1793d1; }
@@ -1225,7 +1232,7 @@
   #fs_modal.prefs_modal .badge_example { background: #bf360c; }
   #fs_modal.prefs_modal .message_theme_preview { border-bottom-color: #101010; border-top-color: #101010; }
   #fs_modal.prefs_modal .display_real_names_block_sample { background: #000; }
-  .sidebar_menu_list_item { border: 0; color: #00b9f2; }
+  .sidebar_menu_list_item { border: 0; color: #00b9f2; font-size: inherit; }
   .sidebar_menu_list_item.is_active { background-color: #101010; color: #00b9f2; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15); }
   .sidebar_menu_list_item:not(.is_active):hover { background-color: #181818; }
   .jumbomoji_pref_disabled { color: #1793d1; }

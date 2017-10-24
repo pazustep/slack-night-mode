@@ -1,6 +1,8 @@
-body { background: #222; color: #e6e6e6; }
+html { font-size: 12px; }
 
-[lang="en-US"] body, [lang="de-DE"] body, [lang="es-ES"] body, [lang="fr-FR"] body { font-family: Monoid, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; font-size: 12px; }
+body { font-size: inherit; background: #222; color: #e6e6e6; }
+
+[lang="en-US"] body, [lang="de-DE"] body, [lang="es-ES"] body, [lang="fr-FR"] body { font-family: Monoid, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
 
 a { color: #949494; }
 
@@ -92,6 +94,10 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 .p-channel_sidebar__close_container:hover { background: #000; }
 
+.p-channel_sidebar__banner { font-size: inherit; }
+
+.p-channel_sidebar__section_heading_label { font-size: 1.2rem; font-weight: 700; }
+
 .channels_list_holder h2 { color: #e6e6e6 !important; }
 
 .channels_list_holder h2.hoverable:not(.jquery_hover):hover { color: #e6e6e6; opacity: 0.8; }
@@ -147,6 +153,10 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 .infinite_spinner_bg, .infinite_spinner_blue { stroke: #e6e6e6; }
 
 body.loading #team_menu, body.loading #quick_switcher_btn, body.loading #team_menu_overlay, body.loading #col_channels_overlay, body.loading #col_channels { background-color: #363636; }
+
+.btn { font-size: 1rem; }
+
+.btn_small { font-size: 0.8rem; }
 
 input[type=text], input[type=password], input[type=datetime], input[type=datetime-local], input[type=date], input[type=month], input[type=time], input[type=week], input[type=number], input[type=email], input[type='url'], input[type=tel], input[type=color], input[type=search] { background-color: #545454; border-color: #000; color: #e6e6e6; }
 
@@ -434,7 +444,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .menu .section_header > div.header_label_container { color: #949494; }
 
-.menu ul li a { background: #363636; border-bottom: 0; color: #e6e6e6; }
+.menu ul li a { background: #363636; border-bottom: 0; color: #e6e6e6; font-size: 1rem; }
 
 .menu ul li a.delete_link { color: #bf360c; }
 
@@ -978,7 +988,7 @@ ts-mention { background: rgba(130, 130, 130, 0.1) !important; color: #e6e6e6 !im
 
 .attachment_still_pending ts-inline-saver { color: #949494; }
 
-.msg_inline_attachment_column { font-size: 12px; }
+.msg_inline_attachment_column { font-size: 1rem; }
 
 .msg_inline_attachment_column.column_border { background-color: #545454; }
 
@@ -1280,7 +1290,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket { color: #bf360c; }
 
 .dense_theme ts-message .message_content .message_current_status { border-color: #363636; }
 
-.light_theme ts-message { color: #e6e6e6; font-family: Monoid, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+.light_theme ts-message { color: #e6e6e6; font-size: 1rem; }
 
 .light_theme ts-message .message_content .message_sender, .light_theme ts-message .message_content .meta .message_sender:hover { color: #e6e6e6 !important; }
 
@@ -1374,6 +1384,8 @@ ts-thread .new_reply_indicator .blue_dot { color: #bf360c; }
 
 .unread_group.marked_as_read .unread_group_header { background: #222; }
 
+.unread_group_header .unread_group_keyboard_help, .unread_group_header .unread_group_marked_as_read_count, .unread_group_header .unread_group_message_count, .unread_group_header .unread_group_new, .unread_group_header .unread_group_undo { font-size: 0.75rem; }
+
 .unread_group_header { background: #363636; border-top-color: #545454; color: #e6e6e6; }
 
 .unread_group_header .unread_group_collapse_toggle:hover ts-icon { color: #e6e6e6; }
@@ -1385,6 +1397,8 @@ ts-thread .new_reply_indicator .blue_dot { color: #bf360c; }
 .mark_as_read_checkmark { color: #949494; }
 
 .bottom_mark_all_read { border-top-color: #363636; }
+
+.unread_group_header_name { font-size: 1.2rem; line-height: 1.3; }
 
 .unread_group_header_name a { color: #e6e6e6; }
 
@@ -2452,7 +2466,7 @@ input[type="text"].p-emoji_picker__input:focus { border-color: #545454; box-shad
 
 #fs_modal.prefs_modal .display_real_names_block_sample { background: #222; }
 
-.sidebar_menu_list_item { border: 0; color: #e6e6e6; }
+.sidebar_menu_list_item { border: 0; color: #e6e6e6; font-size: inherit; }
 
 .sidebar_menu_list_item.is_active { background-color: #000; color: #e6e6e6; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15); }
 

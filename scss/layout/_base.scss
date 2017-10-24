@@ -1,14 +1,18 @@
+@if global-variable-exists(base-font-size) {
+  html {
+    font-size: $base-font-size;
+  }
+}
+
 body {
+  font-size: inherit;
   background: $color-base;
   color: $base-font-color;
 }
 
-[lang="en-US"] body, [lang="de-DE"] body, [lang="es-ES"] body, [lang="fr-FR"] body {
-  @if global-variable-exists(base-font-family) {
+@if global-variable-exists(base-font-family) {
+  [lang="en-US"] body, [lang="de-DE"] body, [lang="es-ES"] body, [lang="fr-FR"] body {
     font-family: $base-font-family;
-  }
-  @if global-variable-exists(base-font-size) {
-    font-size: $base-font-size;
   }
 }
 

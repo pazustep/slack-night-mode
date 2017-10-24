@@ -95,6 +95,7 @@
 .sidebar_menu_list_item {
   border: 0;
   color: $base-font-color;
+  font-size: inherit;
 
   &.is_active {
     background-color: $color-shade-darkest;
