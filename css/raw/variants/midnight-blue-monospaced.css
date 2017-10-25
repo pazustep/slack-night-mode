@@ -2,7 +2,7 @@ html { font-size: 12px; }
 
 body { font-size: inherit; background: #000; color: #00b9f2; }
 
-[lang="en-US"] body, [lang="de-DE"] body, [lang="es-ES"] body, [lang="fr-FR"] body { font-family: "Noto Sans Mono", Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+[lang="en-US"] body, [lang="de-DE"] body, [lang="es-ES"] body, [lang="fr-FR"] body { font-family: Monoid, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
 
 a { color: #1793d1; }
 
@@ -348,7 +348,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_form .msg_mentions_button:hover { color: #00b9f2; }
 
-[lang="en-US"] #msg_input, [lang="de-DE"] #msg_input, [lang="es-ES"] #msg_input, [lang="fr-FR"] #msg_input { font-family: "Noto Sans Mono", Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+[lang="en-US"] #msg_input, [lang="de-DE"] #msg_input, [lang="es-ES"] #msg_input, [lang="fr-FR"] #msg_input { font-family: Monoid, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
 
 #msg_input { background: #282828; border-color: #202020; color: #00b9f2; font-size: 12px; }
 
